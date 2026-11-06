@@ -4,7 +4,7 @@ module dff (
     output Qn
 );
 
-inital begin
+initial begin
     Q <= 0;
 end
 

@@ -7,7 +7,7 @@ wire D;
 
 assign D = (J & ~Q) | (~K & Q);
 
-d_flipflop dff (
+dff d_flipflop_inst (
     .D(D),
     .clk(clk),
     .Q(Q),
